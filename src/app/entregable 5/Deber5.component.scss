@@ -168,3 +168,22 @@
     }
   }
 }
+
+/* gallery */
+.gallery {
+  max-width: 900px; /* Ajusta el ancho máximo del carrusel */
+  margin: auto; /* Centra el carrusel en la página */
+}
+
+.carousel-item {
+  display: flex; /* Asegura que el contenido se centre */
+  justify-content: center;
+  align-items: center;
+  height: 400px; /* Altura fija para los GIFs */
+}
+
+.carousel-img {
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+  height: 100%; /* Ocupa toda la altura del contenedor */
+  object-fit: contain; /* Mantiene la proporción y ajusta al tamaño del contenedor */
+}

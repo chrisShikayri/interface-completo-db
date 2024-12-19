@@ -5,7 +5,21 @@ import { Component } from '@angular/core';
   templateUrl: './Deber5.component.html',
   styleUrls: ['./Deber5.component.scss']
 })
-export class Deber5Component {
+export class Deber5Component { 
+
+  images: string[] = [
+    'https://i.gifer.com/80Gs.gif',
+    'https://i.gifer.com/8Vvs.gif',
+    'https://i.gifer.com/zIz.gif',
+    'https://i.gifer.com/84OP.gif',
+    'https://i.gifer.com/C0Nw.gif',
+    'https://i.gifer.com/ZAAd.gif'
+  ];
+
+
+
+
+
   // Lista de productos
   products = [
     { 
